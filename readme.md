@@ -37,13 +37,13 @@ document.body.appendChild(p);
 <!-- 3. What is Event Bubbling and how does it work? -->
 
 
-Event bubbling is a way in which events in JavaScript move through the DOM.
+Event bubbling is a mechanism by which events in JavaScript propagate through the DOM.
 
 When an event happens on a child element, it first runs on that element.
 
 Then the event “bubbles up” to its parent, grandparent, and so on, until the root (document).
 
-This allows parent elements to also handle events triggered inside their child elements.
+This allows parent elements also to handle events triggered inside their child elements.
 
 
 
@@ -51,10 +51,10 @@ This allows parent elements to also handle events triggered inside their child e
  <!-- 4. What is Event Delegation in JavaScript? Why is it useful? -->
 
 
- Event delegation is a technique where instead of adding event listeners to many child elements,
-we add a single listener to the parent element.
+ Event delegation is a technique where, instead of adding event listeners to many child elements,
+We add a single listener to the parent element.
 The event then reaches the parent because of event bubbling,
- and we can check which child triggered it.
+ And we can check which child triggered it.
 
 
 
